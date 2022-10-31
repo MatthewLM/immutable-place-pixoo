@@ -1,0 +1,33 @@
+{
+  "name": "immutable-place-pixoo",
+  "version": "1.0.0",
+  "description": "Displays immutable.place art on a Pixoo 64",
+  "scripts": {
+    "start": "npx ts-node src/main.ts",
+    "image": "npx ts-node src/image.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts src/*.ts"
+  },
+  "author": "Matthew Mitchell",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/argparse": "^2.0.10",
+    "@types/node": "^18.7.3",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@canvas/image-data": "^1.0.0",
+    "argparse": "^2.0.1",
+    "axios": "^0.27.2",
+    "coin-canvas-lib": "^1.0.0",
+    "gpu.js": "^2.15.2",
+    "jimp": "^0.16.1",
+    "ts-node": "^10.9.1"
+  },
+  "bin": {
+    "immutable-place-pixoo": "src/main.ts"
+  }
+}
