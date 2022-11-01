@@ -18,12 +18,10 @@ shown according to frequency of updates and a calculation of entropy.
 ## Usage
 
 You need to have `npm` available on your system. You can install the package
-globally alongside `typescript` and `ts-node`, ensuring that you are within the
-repository directory:
+globally alongside `typescript` and `ts-node`:
 
 ```
-npm i -g typescript ts-node
-npm i -g
+npm i -g typescript ts-node immutable-place-pixoo
 ```
 
 This will make the `immutable-place-pixoo` command available. Find the IP
