@@ -2,6 +2,8 @@
   "name": "immutable-place-pixoo",
   "version": "1.0.0",
   "description": "Displays immutable.place art on a Pixoo 64",
+  "keywords": ["peercoin", "blockchain", "crypto", "pixoo", "divoom", "art"],
+  "repository": "https://github.com/MatthewLM/immutable-place-pixoo",
   "scripts": {
     "start": "npx ts-node src/main.ts",
     "image": "npx ts-node src/image.ts",
